@@ -26,6 +26,10 @@ a {
   color: black;
 }
 
+img {
+  object-fit: contain;
+}
+
 footer {
   margin-top: 60px;
   color: gray;
@@ -36,15 +40,8 @@ footer {
     width: auto;
   }
 
-  .gist-data {
-    max-height: 8964px !important;
-  }
-}
-
-@media (hover: none),
-(pointer: coarse) {
-  .gist-data {
-    max-height: 8964px !important;
+  article {
+    padding: 90px !important;
   }
 }
 
